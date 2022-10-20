@@ -1,0 +1,41 @@
+# This is a basic workflow to help you get started with Actions
+
+name: Esfera-perene
+
+# Controls when the workflow will run
+on:
+  # Triggers the workflow on push or pull request events but only for the "main" branch
+  push:
+    branches: [ https://github.com/LuigoLegna/LuigoLegna ]
+  pull_request:
+    branches: [ https://github.com/LuigoLegna/LuigoLegna/pull/1 ]
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch: 
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs: Escritor, Consultor em PNL, Mestre Mor, Mentoria, hipnoterapeuta, terapeuta holístico, CEO.
+  # This workflow contains a single job called "build"
+  build: LuigoLegna-Esfera-perene
+    # The type of runner that the job will run on
+    my_job:
+    name: deploy to staging
+    runs-on: ubuntu-latest, ubuntu-18.04, or ubuntu-16.04, windows-latest or windows-2019
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps: Seguir os princípios, lealdade, ler o livro base da doutrina.
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - uses: actions/checkout@v3
+
+      # Runs a single command using the runners shell
+      - name: https://github.com/LuigoLegna/LuigoLegna/pull/1#issue-1415755915
+        run: echo Hello, everybody!
+
+      # Runs a set of commands using the runners shell
+      - name: Ordem Esfera perene
+        run: Estatuto: http://www.esferaperene.com.br/sobre-nos_2.html
+        run: Livro: https://clubedeautores.com.br/livro/revelacao-deus
+        run: Sobre o Livro: http://www.esferaperene.com.br/livro_e_a_sociedade_14.html
+        run: Para empresários: http://www.esferaperene.com.br/empresarios_22.html
+        run: História: http://www.esferaperene.com.br/historia_6.html
+          echo Add other actions to build, LuigoLegna-Esfera-perene
+          echo test, and deploy your project. 
